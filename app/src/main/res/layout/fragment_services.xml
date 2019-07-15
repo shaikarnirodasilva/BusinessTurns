@@ -1,0 +1,140 @@
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/services_fragment"
+    android:background="#000"
+    android:padding="8dp"
+
+    tools:context="kds.skaui.businessturns.ServicesFragment"
+    tools:layout_editor_absoluteY="81dp">
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:id="@+id/loginForm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/loginContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvService1"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="casual"
+                android:paddingBottom="10dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/mdtp_white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvService4" />
+
+            <TextView
+                android:id="@+id/tvService4"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvService3"
+
+                android:layout_marginTop="148dp"
+                android:fontFamily="casual"
+                android:paddingBottom="10dp"
+                android:text="TextView"
+
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/mdtp_white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvService3"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvService2"
+
+                android:layout_marginTop="8dp"
+                android:fontFamily="casual"
+
+                android:paddingBottom="10dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/mdtp_white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvService1" />
+
+            <TextView
+                android:id="@+id/tvService2"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvService1"
+                android:layout_marginBottom="8dp"
+
+                android:fontFamily="casual"
+                android:paddingBottom="10dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/mdtp_white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvService3"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/tvDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvService4"
+                android:layout_marginTop="31dp"
+                android:fontFamily="monospace"
+
+                android:paddingBottom="10dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/mdtp_white"
+                android:visibility="gone"
+
+                app:layout_constraintTop_toBottomOf="@+id/tvService3" />
+
+            <TextView
+                android:id="@+id/tvDateTime2"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvService4"
+                android:fontFamily="monospace"
+                android:paddingBottom="10dp"
+
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/mdtp_white"
+                android:textSize="24sp"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@+id/tvService3" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+</android.widget.RelativeLayout>

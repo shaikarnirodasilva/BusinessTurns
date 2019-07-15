@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/on_us"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="@string/properties" />
+        <item
+            android:id="@+id/get_turn"
+            android:icon="@drawable/ic_tag_faces_black_24dp"
+            android:title="@string/make_turn" />
+        <item
+            android:id="@+id/remove_turn"
+            android:icon="@drawable/ic_mood_bad_black_24dp"
+            android:title="@string/cancel_turn" />
+
+        <item
+            android:id="@+id/sign_out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="צא" />
+    </group>
+
+
+</menu>
+
+

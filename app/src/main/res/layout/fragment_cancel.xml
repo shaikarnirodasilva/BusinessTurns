@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:id="@+id/cancelFrag"
+    android:layout_height="match_parent"
+    tools:context="kds.skaui.businessturns.CancelFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/btnCancelTurn"
+        style="@style/FirebaseUI.Button.AccountChooser"
+        android:layout_width="131dp"
+        android:layout_height="135dp"
+        android:layout_centerInParent="true"
+        android:text="בטל תור"
+        android:textAlignment="center"
+        android:textColor="@color/mdtp_white"
+        android:visibility="visible" />
+
+</RelativeLayout>
